@@ -101,7 +101,7 @@
         <span class="nav__sub-title">DB</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DB" %}
+                    {% if category[0] == "SQL" %}
                         <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
