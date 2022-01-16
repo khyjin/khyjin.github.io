@@ -83,18 +83,10 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
-analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : "UA-169251732-1"
-    anonymize_ip         : false # true, false (default)
-
-
 # Site Author
 author:
   name             : "H.J Kim"
-  avatar           : "https://user-images.githubusercontent.com/42318591/108615416-2e1bb580-7447-11eb-8a54-6338e53ce625.png"
+  avatar           : #"https://user-images.githubusercontent.com/42318591/108615416-2e1bb580-7447-11eb-8a54-6338e53ce625.png"
   bio              : "반갑습니다 :)"
   #location         : "Seoul, South Korea"
   links:
