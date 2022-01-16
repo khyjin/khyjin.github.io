@@ -19,6 +19,8 @@ layout: single
 - 여러 개의 SQL문을 합쳐 하나의 SQL문으로 만들어 준다.
 - UNION : 각 쿼리의 결과를 반환하는 합집합 (중복제거)
 - UNION ALL : 각 쿼리의 모든 결과를 포함한 합집합 (중복 제거 안함)
+
+
 ```sql
 
 SELECT 'S'         AS SAL_TYPE,
