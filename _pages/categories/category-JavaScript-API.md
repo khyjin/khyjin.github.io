@@ -1,7 +1,7 @@
 ---
-title: "JavaScript API"
+title: "JavaScript Library"
 layout: archive
-permalink: categories/JavaScript-API
+permalink: categories/JavaScript-lib
 author_profile: true
 sidebar_main: true
 ---

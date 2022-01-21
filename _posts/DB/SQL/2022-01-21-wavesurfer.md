@@ -3,9 +3,9 @@ title:  "WaveSurfer"
 excerpt: "wavesurfer"
 
 categories:
-  - JavaScript-API
+  - s
 tags:
-  - [api]
+  - [라이브러리]
 
 toc: true
 toc_sticky: true
