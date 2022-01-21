@@ -1,5 +1,5 @@
 ---
-title: "자료 구조와 알고리즘 (with C#)"
+title: "읽은 책에 대한 정리"
 layout: archive
 permalink: categories/book-review
 author_profile: true
