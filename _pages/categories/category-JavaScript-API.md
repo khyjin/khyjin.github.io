@@ -1,7 +1,7 @@
 ---
-title: "영리한 프로그래밍을 위한 알고리즘 강의 필기"
+title: "JavaScript API"
 layout: archive
-permalink: categories/algorithm-lesson-1
+permalink: categories/JavaScript-API
 author_profile: true
 sidebar_main: true
 ---
