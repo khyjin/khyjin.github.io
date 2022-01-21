@@ -107,9 +107,9 @@ wavesurfer.load('audio.wav');
 | empty() | 길이가 0인 오디오가 로드된 것 처럼 파형을 지운다. |
 | getActivePlugins() | 현재 초기화된 플러그인 이름의 맵 반환 |
 | getMute() | 음소거 상태로 만듬 |
-- 참고용
 
-[wavesurfer.js](https://wavesurfer-js.org/docs/methods.html)
+- 참고용
+[자세한 함수 목록 ](https://wavesurfer-js.org/docs/methods.html)
 
 ### 이벤트
 
@@ -123,9 +123,10 @@ wavesurfer.load('audio.wav');
 | audioprocess | 음원이 재생 중인 경우 지속적으로 발생 |
 | pause | 음원이 일시정지 될 경우 발생 |
 | finish | 음원이 끝까지 재생된 경우 발생 |
-- 등록 가능한 이벤트 목록
 
-[wavesurfer.js](https://wavesurfer-js.org/docs/events.html)
+- 등록 가능한 이벤트 목록
+[자세한 이벤트 설명 페이지](https://wavesurfer-js.org/docs/events.html)
+
 
 ```html
 <!DOCTYPE html>
@@ -133,6 +134,10 @@ wavesurfer.load('audio.wav');
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <script src="https://unpkg.com/wavesurfer.js/dist/wavesurfer.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/e29fb55f15.js" crossorigin="anonymous"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -165,25 +170,20 @@ wavesurfer.load('audio.wav');
 
     <p></p>
     <div class="list-group" id="playlist">
-        <a href="https://file-examples-com.github.io/uploads/2017/11/file_example_WAV_1MG.wav" class="list-group-item">
+        <a href="insert here audio-link" class="list-group-item">
             <i class="glyphicon glyphicon-play"></i>
             재생목록1</a>
 
-        <a href="https://file-examples-com.github.io/uploads/2017/11/file_example_WAV_2MG.wav" class="list-group-item">
+        <a href="audio link" class="list-group-item">
             <i class="glyphicon glyphicon-play"></i>
             재생목록2</a>
 
-        <a href="https://file-examples-com.github.io/uploads/2017/11/file_example_WAV_10MG.wav" class="list-group-item">
+        <a href="audio file" class="list-group-item">
             <i class="glyphicon glyphicon-play"></i>
             재생목록3</a>
 
     </div>
 </body>
-
-<script src="https://unpkg.com/wavesurfer.js/dist/wavesurfer.min.js"></script>
-<script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.min.js"></script>
-<script src="./app.js"></script>
-<script src="https://kit.fontawesome.com/e29fb55f15.js" crossorigin="anonymous"></script>
 </html>
 ```
 
@@ -202,11 +202,8 @@ var wavesurfer = WaveSurfer.create({
       ]
   });
 
-//wavesurfer.load('https://file-examples-com.github.io/uploads/2017/11/file_example_WAV_10MG.wav');
-
 var links = document.getElementsByClassName("list-group-item");
 var currentTrack = 0;
-console.log(links);
 
 var setCurrentSong = function(index){
     links[currentTrack].classList.remove('active');
