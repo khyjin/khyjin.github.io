@@ -5,7 +5,7 @@ excerpt: "wavesurfer"
 categories:
   - JavaScript-Lib
 tags:
-  - [라이브러리]
+  - [Lib]
 
 toc: true
 toc_sticky: true
