@@ -182,7 +182,7 @@ wavesurfer.load('audio.wav');
 </body>
 ```
 
-###app.js
+### app.js
 ```javascript
 var wavesurfer = WaveSurfer.create({
     container: '#waveform',
