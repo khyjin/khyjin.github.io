@@ -34,8 +34,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "JavaScript-API" %}
-                        <li><a href="/categories/JavaScript-lib" class="">API ({{category[1].size}})</a></li>
+                    {% if category[0] == "JavaScript-Lib" %}
+                        <li><a href="/categories/JavaScript-Lib" class="">API ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

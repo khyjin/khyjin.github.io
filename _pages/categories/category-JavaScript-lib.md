@@ -1,7 +1,7 @@
 ---
 title: "JavaScript Library"
 layout: archive
-permalink: categories/JavaScript-lib
+permalink: categories/JavaScript-Lib
 author_profile: true
 sidebar_main: true
 ---

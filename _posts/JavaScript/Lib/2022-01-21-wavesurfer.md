@@ -3,7 +3,7 @@ title:  "WaveSurfer"
 excerpt: "wavesurfer"
 
 categories:
-  - JavaScript-lib
+  - JavaScript-Lib
 tags:
   - [라이브러리]
 
