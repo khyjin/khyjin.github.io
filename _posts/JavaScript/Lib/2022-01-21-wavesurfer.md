@@ -129,16 +129,12 @@ wavesurfer.load('audio.wav');
 
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <script src="https://unpkg.com/wavesurfer.js/dist/wavesurfer.min.js"></script>
     <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.min.js"></script>
     <script src="./app.js"></script>
-    <script src="https://kit.fontawesome.com/e29fb55f15.js" crossorigin="anonymous"></script>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -184,9 +180,9 @@ wavesurfer.load('audio.wav');
 
     </div>
 </body>
-</html>
 ```
 
+###app.js
 ```javascript
 var wavesurfer = WaveSurfer.create({
     container: '#waveform',
